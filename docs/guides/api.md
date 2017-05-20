@@ -5,7 +5,7 @@ API Video.js позволяет вам взаимодействовать с в�
 
 Referencing the Player
 ----------------------
-To use the API functions, you need access to the player object. Luckily this is easy to get. You just need to make sure your video tag has an ID. The example embed code has an ID of "example\_video_1". If you have multiple videos on one page, make sure every video tag has a unique ID.
+Чтобы использовать функции API, вам нужен доступ к объекту проигрывателя. К счастью, его легко получить. Вам просто нужно убедиться, что ваш видеотег имеет ID. Пример кода для вставки имеющий ID "example\_video_1". Если у вас есть несколько видео на одной странице, убедитесь, что у каждого тега есть уникальный идентификатор (ID).
 
 ```js
 var myPlayer = videojs('example_video_1');
