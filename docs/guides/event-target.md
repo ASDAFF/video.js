@@ -1,20 +1,20 @@
 # Event Target
 
-## Table of Contents
+## Содержание
 
-* [Overview](#overview)
+* [Общая информация](#overview)
 * [on() and addEventListener()](#on-and-addeventlistener)
 * [off() and removeEventListener()](#off-and-removeeventlistener)
 * [one()](#one)
 * [trigger() and dispatchEvent()](#trigger-and-dispatchevent)
 
-## Overview
+## Общая информация
 
-Events in video.js are setup so that they mimic the DOM API that is used on object, but also have helpful shorthand functions with the same functionality.
+События в video.js настроены таким образом, что они имитируют DOM API, который используется в объекте, но также имеют полезные сокращенные функции с одинаковой функциональностью.
 
-## `on()` and `addEventListener()`
+## `on()` и `addEventListener()`
 
-This function is used to add an event listener to an EventTarget.
+Эта функция используется для добавления прослушивания событий в EventTarget.
 
 ```js
 var foo = new EventTarget();
@@ -30,9 +30,9 @@ foo.trigger('bar');
 // logs 'bar was triggered'
 ```
 
-## `off()` and `removeEventListener()`
+## `off()` и `removeEventListener()`
 
-This function is used to remove an listener function from an EventTarget.
+Эта функция используется для удаления функции прослушивания из EventTarget.
 
 ```js
 var foo = new EventTarget();
@@ -56,15 +56,15 @@ foo.trigger('bar');
 
 ## `one()`
 
-This function is used to only have an event listener called once and never again.
+Эта функция используется для того, чтобы один прослушиватель событий вызывался только один раз и никогда больше.
 
-Using `on()` and `off()` to mimic `one()` (not recommended)
+Использование on `on()` и `off()` для имитации `one()` (не рекомендуется)
 
 ```js
 var foo = new EventTarget();
 var handleBar = function() {
   console.log('bar was triggered');
-  // after the first trigger remove this handler
+  // после первого триггера удалить этот обработчик
   foo.off('bar', handleBar);
 };
 
@@ -73,10 +73,10 @@ foo.trigger('bar');
 // logs 'bar was triggered'
 
 foo.trigger('bar');
-// does nothing
+// ничего не делает
 ```
 
-Using `one()`
+Использование `one()`
 
 ```js
 var foo = new EventTarget();
@@ -84,18 +84,18 @@ var handleBar = function() {
   console.log('bar was triggered');
 };
 
-// removed after the first trigger
+// удалено после первого триггера
 foo.one('bar', handleBar);
 foo.trigger('bar');
 // logs 'bar was triggered'
 
 foo.trigger('bar');
-// does nothing
+// ничего не делает
 ```
 
-## `trigger()` and `dispatchEvent()`
+## `trigger()` и `dispatchEvent()`
 
-This function is used to trigger an event on an EventTarget which will cause all listeners to run.
+Эта функция используется для запуска события в EventTarget, которое вызывает запуск всех прослушивателей.
 
 > Note: if 'click' is in `EventTarget.allowedEvents_`, trigger will attempt to call the
 >       `onClick` function if it exists.

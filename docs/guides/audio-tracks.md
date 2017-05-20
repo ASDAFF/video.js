@@ -4,7 +4,7 @@ Audio tracks are a feature of HTML5 video for providing alternate audio track se
 to the user, so that a track other than the main track can be played. Video.js offers a
 cross-browser implementation of audio tracks.
 
-## Table of Contents
+## Содержание
 
 * [Caveats](#caveats)
 * [Working with Audio Tracks](#working-with-audio-tracks)

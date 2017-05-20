@@ -1,6 +1,6 @@
-Glossary
+Глоссарий
 ========
-Terms related to web video.
+Термины, относящиеся к веб-видео.
 
 ### DOM (Document Object Model)
 The container of elements on the page that must be loaded before you can interact with the elements with through Javascript.
@@ -31,7 +31,7 @@ There are a number of great resources that will give you an introduction to the 
 An if you really want to dig in, you can read the (W3C Spec)[http://www.w3.org/TR/html5/video.html]. (Warning - not for the faint of heart)
 
 
-### Skin
+### Скин
 "Skin" refers to the design of the player's controls, also sometimes called the chrome. With VideoJS, new skins can be built simply by creating a new stylesheet.
 
 

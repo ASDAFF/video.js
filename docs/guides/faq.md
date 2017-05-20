@@ -1,6 +1,6 @@
 # FAQ
 
-## Table of Contents
+## Содержание
 
 * [Q: What is video.js?](#q-what-is-videojs)
 * [Q: How do I install video.js?](#q-how-do-i-install-videojs)

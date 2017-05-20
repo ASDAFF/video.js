@@ -2,7 +2,7 @@
 
 Hooks exist so that users can "hook" on to certain video.js player lifecycle
 
-## Table of Contents
+## Содержание
 
 * [Current Hooks](#current-hooks)
   * [beforesetup](#beforesetup)
