@@ -1,10 +1,10 @@
-# Translations needed
+# Необходимые переводы
 
-The currently available translations are in the lang dir. This table shows the completeness of those translations. Anything not listed does not exist yet, so go ahead and create it by copying `en.json`.
+Доступные в настоящее время переводы находятся в каталоге lang. В этой таблице показана полнота этих переводов. Все, что не перечислено, еще не существует, поэтому создайте его, скопировав `en.json`.
 
 If you add or update a translation run `grunt check-translations` to update the list and include this modified doc in the pull request.
 
-## Progress Bar Translations
+## Progress Bar переводы
 
 The progress bar as a translation with a few token replacements.
 They key is `progress bar timing: currentTime={1} duration={2}` and the default English value is `{1} of {2}`.
