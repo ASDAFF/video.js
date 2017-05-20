@@ -3,10 +3,10 @@
 ## Содержание
 
 * [Общая информация](#overview)
-* [on() and addEventListener()](#on-and-addeventlistener)
-* [off() and removeEventListener()](#off-and-removeeventlistener)
+* [on() и addEventListener()](#on-and-addeventlistener)
+* [off() и removeEventListener()](#off-and-removeeventlistener)
 * [one()](#one)
-* [trigger() and dispatchEvent()](#trigger-and-dispatchevent)
+* [trigger() и dispatchEvent()](#trigger-and-dispatchevent)
 
 ## Общая информация
 
@@ -97,8 +97,8 @@ foo.trigger('bar');
 
 Эта функция используется для запуска события в EventTarget, которое вызывает запуск всех прослушивателей.
 
-> Примечание: if 'click' is in `EventTarget.allowedEvents_`, trigger will attempt to call the
->       `onClick` function if it exists.
+> Примечание: Если 'click' находится в `EventTarget.allowedEvents_`, триггер попытается вызвать функцию
+>       `onClick`  если она существует.
 
 ```js
 var foo = new EventTarget();
