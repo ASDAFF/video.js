@@ -58,7 +58,7 @@ foo.trigger('bar');
 
 Эта функция используется для того, чтобы один прослушиватель событий вызывался только один раз и никогда больше.
 
-Использование on `on()` и `off()` для имитации `one()` (не рекомендуется)
+Использование `on()` и `off()` для имитации `one()` (не рекомендуется)
 
 ```js
 var foo = new EventTarget();
@@ -97,7 +97,7 @@ foo.trigger('bar');
 
 Эта функция используется для запуска события в EventTarget, которое вызывает запуск всех прослушивателей.
 
-> Note: if 'click' is in `EventTarget.allowedEvents_`, trigger will attempt to call the
+> Примечание: if 'click' is in `EventTarget.allowedEvents_`, trigger will attempt to call the
 >       `onClick` function if it exists.
 
 ```js
