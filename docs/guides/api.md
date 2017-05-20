@@ -11,11 +11,11 @@ Referencing the Player
 var myPlayer = videojs('example_video_1');
 ```
 
-(If the player hasn't been initialized yet via the data-setup attribute or another method, this will also initialize the player.)
+(Если проигрыватель еще не был инициализирован с помощью атрибута настройки данных или другого метода, это также приведет к инициализации проигрывателя.)
 
 Wait Until the Player is Ready
 ------------------------------
-The time it takes Video.js to set up the video and API will vary depending on the playback technology being used (HTML5 will often be much faster to load than Flash). For that reason we want to use the player's 'ready' function to trigger any code that requires the player's API.
+Время, необходимое Video.js для настройки видео и API, будет зависеть от используемой технологии воспроизведения (HTML5 часто будет намного быстрее загружать, чем Flash).The time it takes Video.js to set up the video and API will vary depending on the playback technology being used (HTML5 will often be much faster to load than Flash). For that reason we want to use the player's 'ready' function to trigger any code that requires the player's API.
 
 ```javascript
 videojs("example_video_1").ready(function(){
