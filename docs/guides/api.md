@@ -1,7 +1,7 @@
 API
 ===
 
-The Video.js API allows you to interact with the video through JavaScript, whether the browser is playing the video through HTML5 video, Flash, or any other supported playback technologies.
+API Video.js позволяет вам взаимодействовать с видео через JavaScript, независимо от того, проигрывает ли браузер видео через HTML5 видео, Flash или любые другие поддерживаемые технологии воспроизведения.
 
 Referencing the Player
 ----------------------
