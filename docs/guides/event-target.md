@@ -2,7 +2,7 @@
 
 ## Содержание
 
-* [Общая информация](#overview)
+* [Общая информация](#Общая информация)
 * [on() и addEventListener()](#on-and-addeventlistener)
 * [off() и removeEventListener()](#off-and-removeeventlistener)
 * [one()](#one)
