@@ -2,17 +2,17 @@
 
 ## Содержание
 
-* [Общая информация](#Общая информация)
-* [on() и addEventListener()](#on-and-addeventlistener)
+* [Общая информация](#1)
+* [on() и addEventListener()](#2)
 * [off() и removeEventListener()](#off-and-removeeventlistener)
 * [one()](#one)
 * [trigger() и dispatchEvent()](#trigger-and-dispatchevent)
 
-## Общая информация
+## 1. Общая информация
 
 События в video.js настроены таким образом, что они имитируют DOM API, который используется в объекте, но также имеют полезные сокращенные функции с одинаковой функциональностью.
 
-## `on()` и `addEventListener()`
+## 2. `on()` и `addEventListener()`
 
 Эта функция используется для добавления прослушивания событий в EventTarget.
 
